@@ -5,7 +5,7 @@ sections:
     component: HeroBlock
     type: heroblock
     content: >-
-      I am Software Engineer. I mostly program using Python and TypeScript.
+      I am Software Engineer.
   - section_id: recent-posts
     component: PostsBlock
     type: postsblock
