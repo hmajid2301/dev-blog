@@ -18,6 +18,7 @@ export default class Body extends React.Component {
                     <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i" rel="stylesheet"/>
                     <link rel="stylesheet" href={safePrefix('assets/css/main.css')}/>
                     <link rel="stylesheet" href={safePrefix('assets/css/dark.css')}/>
+                    <link rel="icon" href={safePrefix('images/favicon.ico')}/>
                     {(_.get(this.props, 'pageContext.frontmatter.template') === 'post') &&  
                     _.get(this.props, 'pageContext.frontmatter.canonical_url') && 
                     <link rel="canonical" href={_.get(this.props, 'pageContext.frontmatter.canonical_url')}/>
